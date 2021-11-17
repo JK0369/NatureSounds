@@ -21,7 +21,8 @@ final class ClockVC: BaseViewController, ViewControllerInit {
     }
     
     func setupViews() {
-        
+        title = "clock"
+        tabBarItem.image = UIImage(systemName: "clock.fill")
     }
     
     func addSubviews() {

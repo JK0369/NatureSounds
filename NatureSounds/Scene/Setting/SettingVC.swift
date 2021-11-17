@@ -21,7 +21,8 @@ final class SettingVC: BaseViewController, ViewControllerInit {
     }
     
     func setupViews() {
-        
+        title = "setting"
+        tabBarItem.image = UIImage(systemName: "gearshape.fill")
     }
     
     func addSubviews() {

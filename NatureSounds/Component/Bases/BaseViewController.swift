@@ -19,10 +19,20 @@ class BaseViewController: UIViewController {
 
     func configure() {
         setupBaseUI()
+        setupBackgroundView()
     }
 
     private func setupBaseUI() {
         view.backgroundColor = .systemBackground
+    }
+    
+    private func setupBackgroundView() {
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.frame = view.bounds
+        gradientLayer.colors = [UIColor.deepBlue.withAlphaComponent(0.8).cgColor, UIColor.shallowGreen.cgColor, UIColor.pastelGreen.cgColor]
+        gradientLayer.startPoint = CGPoint(x: 0, y: 0)
+        gradientLayer.endPoint = CGPoint(x: 1, y: 1)
+        view.layer.addSublayer(gradientLayer)
     }
 
     @available(*, unavailable)

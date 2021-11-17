@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AABEF202745185E00050F78 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AABEF1F2745185E00050F78 /* UIColor.swift */; };
 		4ACF4B4D2744C3F600827511 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4B4C2744C3F600827511 /* AppDelegate.swift */; };
 		4ACF4B562744C3F800827511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ACF4B552744C3F800827511 /* Assets.xcassets */; };
 		4ACF4B592744C3F800827511 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ACF4B572744C3F800827511 /* LaunchScreen.storyboard */; };
@@ -73,6 +74,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4AABEF1F2745185E00050F78 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		4ACF4B492744C3F600827511 /* NatureSounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NatureSounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ACF4B4C2744C3F600827511 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4ACF4B552744C3F800827511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -150,6 +152,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4AABEF1E2745185300050F78 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4AABEF1F2745185E00050F78 /* UIColor.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		4ACF4B402744C3F600827511 = {
 			isa = PBXGroup;
 			children = (
@@ -211,6 +221,7 @@
 		4ACF4B7E2744C55C00827511 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				4AABEF1E2745185300050F78 /* Extension */,
 				4ACF4B7F2744C55C00827511 /* Bases */,
 				4ACF4B832744C55C00827511 /* Utils */,
 			);
@@ -551,6 +562,7 @@
 				4ACF4BAD2744C55C00827511 /* LoginUseCase.swift in Sources */,
 				4ACF4BAA2744C55C00827511 /* Crypto.swift in Sources */,
 				4ACF4C3C2744DE0100827511 /* CustomVC.swift in Sources */,
+				4AABEF202745185E00050F78 /* UIColor.swift in Sources */,
 				4ACF4B9F2744C55C00827511 /* Toast.swift in Sources */,
 				4ACF4C312744DB5A00827511 /* SettingRouter.swift in Sources */,
 				4ACF4C182744CA5500827511 /* SoundVM.swift in Sources */,

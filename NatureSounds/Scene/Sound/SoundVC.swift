@@ -21,7 +21,8 @@ final class SoundVC: BaseViewController, ViewControllerInit {
     }
     
     func setupViews() {
-        
+        title = "sound"
+        tabBarItem.image = UIImage(systemName: "music.note.list")
     }
     
     func addSubviews() {

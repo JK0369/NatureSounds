@@ -16,20 +16,9 @@ class HomeTabBarController: UITabBarController {
     
     private func addAndSetVC() {
         let soundVC = SoundBuilder.build()
-        soundVC.title = "sound"
-        soundVC.tabBarItem.image = UIImage(systemName: "music.note.list")
-        
         let customVC = CustomBuilder.build()
-        customVC.title = "custom"
-        customVC.tabBarItem.image = UIImage(systemName: "person.fill")
-        
         let clockVC = ClockBuilder.build()
-        clockVC.title = "clock"
-        clockVC.tabBarItem.image = UIImage(systemName: "clock.fill")
-        
         let settingVC = SettingBuilder.build()
-        settingVC.title = "setting"
-        settingVC.tabBarItem.image = UIImage(systemName: "gearshape.fill")
         
         let soundNaviVC = UINavigationController(rootViewController: soundVC)
         let customNaviVC = UINavigationController(rootViewController: customVC)

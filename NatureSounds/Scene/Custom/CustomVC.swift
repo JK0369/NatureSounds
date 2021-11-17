@@ -21,7 +21,8 @@ final class CustomVC: BaseViewController, ViewControllerInit {
     }
     
     func setupViews() {
-        
+        title = "custom"
+        tabBarItem.image = UIImage(systemName: "person.fill")
     }
     
     func addSubviews() {
