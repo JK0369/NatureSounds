@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		4AABEF202745185E00050F78 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AABEF1F2745185E00050F78 /* UIColor.swift */; };
+		4AABEF2227451D8300050F78 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AABEF2127451D8300050F78 /* UIView.swift */; };
+		4AABEF2527451FAD00050F78 /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AABEF2427451FAD00050F78 /* Sounds.swift */; };
+		4AABEF2727451FE900050F78 /* SoundResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AABEF2627451FE900050F78 /* SoundResource.swift */; };
+		4AABEF2C2745204500050F78 /* water.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AABEF292745204500050F78 /* water.mp3 */; };
+		4AABEF2D2745204500050F78 /* forest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AABEF2A2745204500050F78 /* forest.mp3 */; };
+		4AABEF2E2745204500050F78 /* rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AABEF2B2745204500050F78 /* rain.mp3 */; };
+		4AABEF312745235B00050F78 /* SoundCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AABEF302745235B00050F78 /* SoundCollectionViewCell.swift */; };
+		4AABEF33274524D000050F78 /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AABEF32274524D000050F78 /* NSObject.swift */; };
+		4AABEF3527452A5D00050F78 /* AppAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AABEF3427452A5D00050F78 /* AppAppearance.swift */; };
 		4ACF4B4D2744C3F600827511 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4B4C2744C3F600827511 /* AppDelegate.swift */; };
 		4ACF4B562744C3F800827511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ACF4B552744C3F800827511 /* Assets.xcassets */; };
 		4ACF4B592744C3F800827511 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ACF4B572744C3F800827511 /* LaunchScreen.storyboard */; };
@@ -75,6 +84,15 @@
 
 /* Begin PBXFileReference section */
 		4AABEF1F2745185E00050F78 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		4AABEF2127451D8300050F78 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		4AABEF2427451FAD00050F78 /* Sounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
+		4AABEF2627451FE900050F78 /* SoundResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundResource.swift; sourceTree = "<group>"; };
+		4AABEF292745204500050F78 /* water.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = water.mp3; sourceTree = "<group>"; };
+		4AABEF2A2745204500050F78 /* forest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = forest.mp3; sourceTree = "<group>"; };
+		4AABEF2B2745204500050F78 /* rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rain.mp3; sourceTree = "<group>"; };
+		4AABEF302745235B00050F78 /* SoundCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundCollectionViewCell.swift; sourceTree = "<group>"; };
+		4AABEF32274524D000050F78 /* NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
+		4AABEF3427452A5D00050F78 /* AppAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAppearance.swift; sourceTree = "<group>"; };
 		4ACF4B492744C3F600827511 /* NatureSounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NatureSounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ACF4B4C2744C3F600827511 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4ACF4B552744C3F800827511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -156,8 +174,37 @@
 			isa = PBXGroup;
 			children = (
 				4AABEF1F2745185E00050F78 /* UIColor.swift */,
+				4AABEF2127451D8300050F78 /* UIView.swift */,
+				4AABEF32274524D000050F78 /* NSObject.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		4AABEF2327451FA400050F78 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4AABEF2427451FAD00050F78 /* Sounds.swift */,
+				4AABEF2F2745232200050F78 /* View */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4AABEF282745203200050F78 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				4AABEF2A2745204500050F78 /* forest.mp3 */,
+				4AABEF2B2745204500050F78 /* rain.mp3 */,
+				4AABEF292745204500050F78 /* water.mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		4AABEF2F2745232200050F78 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4AABEF302745235B00050F78 /* SoundCollectionViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		4ACF4B402744C3F600827511 = {
@@ -183,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				4ACF4B7D2744C54400827511 /* App */,
+				4AABEF2327451FA400050F78 /* Model */,
 				4ACF4BAE2744C55E00827511 /* Scene */,
 				4ACF4B7E2744C55C00827511 /* Component */,
 				4ACF4B852744C55C00827511 /* Data */,
@@ -203,9 +251,11 @@
 		4ACF4B7C2744C53B00827511 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				4AABEF282745203200050F78 /* Music */,
 				4ACF4B552744C3F800827511 /* Assets.xcassets */,
 				4ACF4B572744C3F800827511 /* LaunchScreen.storyboard */,
 				4ACF4B5A2744C3F800827511 /* Info.plist */,
+				4AABEF2627451FE900050F78 /* SoundResource.swift */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -214,6 +264,7 @@
 			isa = PBXGroup;
 			children = (
 				4ACF4B4C2744C3F600827511 /* AppDelegate.swift */,
+				4AABEF3427452A5D00050F78 /* AppAppearance.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -515,7 +566,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4ACF4B592744C3F800827511 /* LaunchScreen.storyboard in Resources */,
+				4AABEF2E2745204500050F78 /* rain.mp3 in Resources */,
 				4ACF4B562744C3F800827511 /* Assets.xcassets in Resources */,
+				4AABEF2C2745204500050F78 /* water.mp3 in Resources */,
+				4AABEF2D2745204500050F78 /* forest.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,6 +597,7 @@
 				4ACF4C342744DB5A00827511 /* SettingVC.swift in Sources */,
 				4ACF4C2A2744DB5200827511 /* ClockVM.swift in Sources */,
 				4ACF4C2B2744DB5200827511 /* ClockBuilder.swift in Sources */,
+				4AABEF33274524D000050F78 /* NSObject.swift in Sources */,
 				4ACF4BA32744C55C00827511 /* AgeResponse.swift in Sources */,
 				4ACF4BA02744C55C00827511 /* AgeAPI.swift in Sources */,
 				4ACF4BAB2744C55C00827511 /* KeychainService.swift in Sources */,
@@ -570,9 +625,14 @@
 				4ACF4C392744DE0100827511 /* CustomRouter.swift in Sources */,
 				4ACF4C332744DB5A00827511 /* SettingBuilder.swift in Sources */,
 				4ACF4BA42744C55C00827511 /* NWRequestInterceptor.swift in Sources */,
+				4AABEF2527451FAD00050F78 /* Sounds.swift in Sources */,
+				4AABEF2727451FE900050F78 /* SoundResource.swift in Sources */,
 				4ACF4B9C2744C55C00827511 /* BaseViewController.swift in Sources */,
 				4ACF4BA72744C55C00827511 /* HTTPHeaderField.swift in Sources */,
+				4AABEF2227451D8300050F78 /* UIView.swift in Sources */,
 				4ACF4B9E2744C55C00827511 /* BaseRouter.swift in Sources */,
+				4AABEF3527452A5D00050F78 /* AppAppearance.swift in Sources */,
+				4AABEF312745235B00050F78 /* SoundCollectionViewCell.swift in Sources */,
 				4ACF4C192744CA5500827511 /* SoundBuilder.swift in Sources */,
 				4ACF4BA52744C55C00827511 /* TargetType.swift in Sources */,
 				4ACF4BA12744C55C00827511 /* AgeTarget.swift in Sources */,

@@ -17,6 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let homeTabBarController = HomeTabBarController()
         window?.rootViewController = homeTabBarController
         window?.makeKeyAndVisible()
+        
+        AppAppearance.setupAppearnce()
+
         return true
     }
 }

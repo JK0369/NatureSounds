@@ -15,4 +15,6 @@ extension UIColor {
     /// (91, 193, 185)
     static let pastelGreen = UIColor(red: 91 / 255, green: 193 / 255, blue: 185 / 255, alpha: 1)
     static let transparentBlack = UIColor.black.withAlphaComponent(0.3)
+    static let shallowWhite = UIColor.white.withAlphaComponent(0.7)
+    static let transparentWhite = UIColor.white.withAlphaComponent(0.2)
 }
