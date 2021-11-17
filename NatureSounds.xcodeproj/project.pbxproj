@@ -8,14 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4ACF4B4D2744C3F600827511 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4B4C2744C3F600827511 /* AppDelegate.swift */; };
-		4ACF4B4F2744C3F600827511 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4B4E2744C3F600827511 /* SceneDelegate.swift */; };
 		4ACF4B512744C3F600827511 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4B502744C3F600827511 /* ViewController.swift */; };
-		4ACF4B542744C3F600827511 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ACF4B522744C3F600827511 /* Main.storyboard */; };
 		4ACF4B562744C3F800827511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ACF4B552744C3F800827511 /* Assets.xcassets */; };
 		4ACF4B592744C3F800827511 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ACF4B572744C3F800827511 /* LaunchScreen.storyboard */; };
 		4ACF4B642744C3F800827511 /* NatureSoundsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4B632744C3F800827511 /* NatureSoundsTests.swift */; };
-		4ACF4B6E2744C3F800827511 /* NatureSoundsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4B6D2744C3F800827511 /* NatureSoundsUITests.swift */; };
-		4ACF4B702744C3F800827511 /* NatureSoundsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4B6F2744C3F800827511 /* NatureSoundsUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,17 +34,13 @@
 /* Begin PBXFileReference section */
 		4ACF4B492744C3F600827511 /* NatureSounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NatureSounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ACF4B4C2744C3F600827511 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4ACF4B4E2744C3F600827511 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4ACF4B502744C3F600827511 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4ACF4B532744C3F600827511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4ACF4B552744C3F800827511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4ACF4B582744C3F800827511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4ACF4B5A2744C3F800827511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ACF4B5F2744C3F800827511 /* NatureSoundsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NatureSoundsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ACF4B632744C3F800827511 /* NatureSoundsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureSoundsTests.swift; sourceTree = "<group>"; };
 		4ACF4B692744C3F800827511 /* NatureSoundsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NatureSoundsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4ACF4B6D2744C3F800827511 /* NatureSoundsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureSoundsUITests.swift; sourceTree = "<group>"; };
-		4ACF4B6F2744C3F800827511 /* NatureSoundsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureSoundsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +73,6 @@
 			children = (
 				4ACF4B4B2744C3F600827511 /* NatureSounds */,
 				4ACF4B622744C3F800827511 /* NatureSoundsTests */,
-				4ACF4B6C2744C3F800827511 /* NatureSoundsUITests */,
 				4ACF4B4A2744C3F600827511 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,9 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				4ACF4B4C2744C3F600827511 /* AppDelegate.swift */,
-				4ACF4B4E2744C3F600827511 /* SceneDelegate.swift */,
 				4ACF4B502744C3F600827511 /* ViewController.swift */,
-				4ACF4B522744C3F600827511 /* Main.storyboard */,
 				4ACF4B552744C3F800827511 /* Assets.xcassets */,
 				4ACF4B572744C3F800827511 /* LaunchScreen.storyboard */,
 				4ACF4B5A2744C3F800827511 /* Info.plist */,
@@ -116,15 +105,6 @@
 				4ACF4B632744C3F800827511 /* NatureSoundsTests.swift */,
 			);
 			path = NatureSoundsTests;
-			sourceTree = "<group>";
-		};
-		4ACF4B6C2744C3F800827511 /* NatureSoundsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4ACF4B6D2744C3F800827511 /* NatureSoundsUITests.swift */,
-				4ACF4B6F2744C3F800827511 /* NatureSoundsUITestsLaunchTests.swift */,
-			);
-			path = NatureSoundsUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +213,6 @@
 			files = (
 				4ACF4B592744C3F800827511 /* LaunchScreen.storyboard in Resources */,
 				4ACF4B562744C3F800827511 /* Assets.xcassets in Resources */,
-				4ACF4B542744C3F600827511 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +239,6 @@
 			files = (
 				4ACF4B512744C3F600827511 /* ViewController.swift in Sources */,
 				4ACF4B4D2744C3F600827511 /* AppDelegate.swift in Sources */,
-				4ACF4B4F2744C3F600827511 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ACF4B6E2744C3F800827511 /* NatureSoundsUITests.swift in Sources */,
-				4ACF4B702744C3F800827511 /* NatureSoundsUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +273,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4ACF4B522744C3F600827511 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4ACF4B532744C3F600827511 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4ACF4B572744C3F800827511 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,7 +412,6 @@
 				INFOPLIST_FILE = NatureSounds/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -472,7 +439,6 @@
 				INFOPLIST_FILE = NatureSounds/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
