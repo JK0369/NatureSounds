@@ -8,10 +8,51 @@
 
 /* Begin PBXBuildFile section */
 		4ACF4B4D2744C3F600827511 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4B4C2744C3F600827511 /* AppDelegate.swift */; };
-		4ACF4B512744C3F600827511 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4B502744C3F600827511 /* ViewController.swift */; };
 		4ACF4B562744C3F800827511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ACF4B552744C3F800827511 /* Assets.xcassets */; };
 		4ACF4B592744C3F800827511 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ACF4B572744C3F800827511 /* LaunchScreen.storyboard */; };
 		4ACF4B642744C3F800827511 /* NatureSoundsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4B632744C3F800827511 /* NatureSoundsTests.swift */; };
+		4ACF4B9C2744C55C00827511 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4B802744C55C00827511 /* BaseViewController.swift */; };
+		4ACF4B9D2744C55C00827511 /* ViewControllerInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4B812744C55C00827511 /* ViewControllerInit.swift */; };
+		4ACF4B9E2744C55C00827511 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4B822744C55C00827511 /* BaseRouter.swift */; };
+		4ACF4B9F2744C55C00827511 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4B842744C55C00827511 /* Toast.swift */; };
+		4ACF4BA02744C55C00827511 /* AgeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4B892744C55C00827511 /* AgeAPI.swift */; };
+		4ACF4BA12744C55C00827511 /* AgeTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4B8A2744C55C00827511 /* AgeTarget.swift */; };
+		4ACF4BA22744C55C00827511 /* AgeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4B8B2744C55C00827511 /* AgeRequest.swift */; };
+		4ACF4BA32744C55C00827511 /* AgeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4B8C2744C55C00827511 /* AgeResponse.swift */; };
+		4ACF4BA42744C55C00827511 /* NWRequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4B8E2744C55C00827511 /* NWRequestInterceptor.swift */; };
+		4ACF4BA52744C55C00827511 /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4B8F2744C55C00827511 /* TargetType.swift */; };
+		4ACF4BA62744C55C00827511 /* APIEventLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4B902744C55C00827511 /* APIEventLogger.swift */; };
+		4ACF4BA72744C55C00827511 /* HTTPHeaderField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4B912744C55C00827511 /* HTTPHeaderField.swift */; };
+		4ACF4BA82744C55C00827511 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4B922744C55C00827511 /* API.swift */; };
+		4ACF4BA92744C55C00827511 /* KeychainAccessible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4B942744C55C00827511 /* KeychainAccessible.swift */; };
+		4ACF4BAA2744C55C00827511 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4B952744C55C00827511 /* Crypto.swift */; };
+		4ACF4BAB2744C55C00827511 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4B962744C55C00827511 /* KeychainService.swift */; };
+		4ACF4BAC2744C55C00827511 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4B992744C55C00827511 /* Person.swift */; };
+		4ACF4BAD2744C55C00827511 /* LoginUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4B9B2744C55C00827511 /* LoginUseCase.swift */; };
+		4ACF4BB12744C66400827511 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4ACF4BB02744C66400827511 /* SnapKit */; };
+		4ACF4BB42744C66E00827511 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4ACF4BB32744C66E00827511 /* Alamofire */; };
+		4ACF4BB72744C67600827511 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 4ACF4BB62744C67600827511 /* KeychainAccess */; };
+		4ACF4BBA2744C68300827511 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 4ACF4BB92744C68300827511 /* RxCocoa */; };
+		4ACF4BBC2744C68300827511 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 4ACF4BBB2744C68300827511 /* RxRelay */; };
+		4ACF4BBE2744C68300827511 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4ACF4BBD2744C68300827511 /* RxSwift */; };
+		4ACF4BC12744C6A500827511 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = 4ACF4BC02744C6A500827511 /* Toast */; };
+		4ACF4BC42744C6DC00827511 /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4BC32744C6DC00827511 /* HomeTabBarController.swift */; };
+		4ACF4C172744CA5500827511 /* SoundRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4C122744CA5500827511 /* SoundRouter.swift */; };
+		4ACF4C182744CA5500827511 /* SoundVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4C132744CA5500827511 /* SoundVM.swift */; };
+		4ACF4C192744CA5500827511 /* SoundBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4C142744CA5500827511 /* SoundBuilder.swift */; };
+		4ACF4C1A2744CA5500827511 /* SoundVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4C152744CA5500827511 /* SoundVC.swift */; };
+		4ACF4C292744DB5200827511 /* ClockRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4C252744DB5200827511 /* ClockRouter.swift */; };
+		4ACF4C2A2744DB5200827511 /* ClockVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4C262744DB5200827511 /* ClockVM.swift */; };
+		4ACF4C2B2744DB5200827511 /* ClockBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4C272744DB5200827511 /* ClockBuilder.swift */; };
+		4ACF4C2C2744DB5200827511 /* ClockVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4C282744DB5200827511 /* ClockVC.swift */; };
+		4ACF4C312744DB5A00827511 /* SettingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4C2D2744DB5A00827511 /* SettingRouter.swift */; };
+		4ACF4C322744DB5A00827511 /* SettingVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4C2E2744DB5A00827511 /* SettingVM.swift */; };
+		4ACF4C332744DB5A00827511 /* SettingBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4C2F2744DB5A00827511 /* SettingBuilder.swift */; };
+		4ACF4C342744DB5A00827511 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4C302744DB5A00827511 /* SettingVC.swift */; };
+		4ACF4C392744DE0100827511 /* CustomRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4C352744DE0100827511 /* CustomRouter.swift */; };
+		4ACF4C3A2744DE0100827511 /* CustomVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4C362744DE0100827511 /* CustomVM.swift */; };
+		4ACF4C3B2744DE0100827511 /* CustomBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4C372744DE0100827511 /* CustomBuilder.swift */; };
+		4ACF4C3C2744DE0100827511 /* CustomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF4C382744DE0100827511 /* CustomVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,13 +75,47 @@
 /* Begin PBXFileReference section */
 		4ACF4B492744C3F600827511 /* NatureSounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NatureSounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ACF4B4C2744C3F600827511 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4ACF4B502744C3F600827511 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4ACF4B552744C3F800827511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4ACF4B582744C3F800827511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4ACF4B5A2744C3F800827511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ACF4B5F2744C3F800827511 /* NatureSoundsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NatureSoundsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ACF4B632744C3F800827511 /* NatureSoundsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureSoundsTests.swift; sourceTree = "<group>"; };
 		4ACF4B692744C3F800827511 /* NatureSoundsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NatureSoundsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ACF4B802744C55C00827511 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		4ACF4B812744C55C00827511 /* ViewControllerInit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerInit.swift; sourceTree = "<group>"; };
+		4ACF4B822744C55C00827511 /* BaseRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
+		4ACF4B842744C55C00827511 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		4ACF4B892744C55C00827511 /* AgeAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgeAPI.swift; sourceTree = "<group>"; };
+		4ACF4B8A2744C55C00827511 /* AgeTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgeTarget.swift; sourceTree = "<group>"; };
+		4ACF4B8B2744C55C00827511 /* AgeRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgeRequest.swift; sourceTree = "<group>"; };
+		4ACF4B8C2744C55C00827511 /* AgeResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgeResponse.swift; sourceTree = "<group>"; };
+		4ACF4B8E2744C55C00827511 /* NWRequestInterceptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NWRequestInterceptor.swift; sourceTree = "<group>"; };
+		4ACF4B8F2744C55C00827511 /* TargetType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
+		4ACF4B902744C55C00827511 /* APIEventLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIEventLogger.swift; sourceTree = "<group>"; };
+		4ACF4B912744C55C00827511 /* HTTPHeaderField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPHeaderField.swift; sourceTree = "<group>"; };
+		4ACF4B922744C55C00827511 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		4ACF4B942744C55C00827511 /* KeychainAccessible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainAccessible.swift; sourceTree = "<group>"; };
+		4ACF4B952744C55C00827511 /* Crypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
+		4ACF4B962744C55C00827511 /* KeychainService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		4ACF4B992744C55C00827511 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		4ACF4B9B2744C55C00827511 /* LoginUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginUseCase.swift; sourceTree = "<group>"; };
+		4ACF4BC32744C6DC00827511 /* HomeTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
+		4ACF4C122744CA5500827511 /* SoundRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundRouter.swift; sourceTree = "<group>"; };
+		4ACF4C132744CA5500827511 /* SoundVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundVM.swift; sourceTree = "<group>"; };
+		4ACF4C142744CA5500827511 /* SoundBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundBuilder.swift; sourceTree = "<group>"; };
+		4ACF4C152744CA5500827511 /* SoundVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundVC.swift; sourceTree = "<group>"; };
+		4ACF4C252744DB5200827511 /* ClockRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockRouter.swift; sourceTree = "<group>"; };
+		4ACF4C262744DB5200827511 /* ClockVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockVM.swift; sourceTree = "<group>"; };
+		4ACF4C272744DB5200827511 /* ClockBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockBuilder.swift; sourceTree = "<group>"; };
+		4ACF4C282744DB5200827511 /* ClockVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockVC.swift; sourceTree = "<group>"; };
+		4ACF4C2D2744DB5A00827511 /* SettingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRouter.swift; sourceTree = "<group>"; };
+		4ACF4C2E2744DB5A00827511 /* SettingVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVM.swift; sourceTree = "<group>"; };
+		4ACF4C2F2744DB5A00827511 /* SettingBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingBuilder.swift; sourceTree = "<group>"; };
+		4ACF4C302744DB5A00827511 /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
+		4ACF4C352744DE0100827511 /* CustomRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRouter.swift; sourceTree = "<group>"; };
+		4ACF4C362744DE0100827511 /* CustomVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVM.swift; sourceTree = "<group>"; };
+		4ACF4C372744DE0100827511 /* CustomBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBuilder.swift; sourceTree = "<group>"; };
+		4ACF4C382744DE0100827511 /* CustomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +123,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ACF4BBE2744C68300827511 /* RxSwift in Frameworks */,
+				4ACF4BBC2744C68300827511 /* RxRelay in Frameworks */,
+				4ACF4BB12744C66400827511 /* SnapKit in Frameworks */,
+				4ACF4BB42744C66E00827511 /* Alamofire in Frameworks */,
+				4ACF4BBA2744C68300827511 /* RxCocoa in Frameworks */,
+				4ACF4BC12744C6A500827511 /* Toast in Frameworks */,
+				4ACF4BB72744C67600827511 /* KeychainAccess in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,11 +172,12 @@
 		4ACF4B4B2744C3F600827511 /* NatureSounds */ = {
 			isa = PBXGroup;
 			children = (
-				4ACF4B4C2744C3F600827511 /* AppDelegate.swift */,
-				4ACF4B502744C3F600827511 /* ViewController.swift */,
-				4ACF4B552744C3F800827511 /* Assets.xcassets */,
-				4ACF4B572744C3F800827511 /* LaunchScreen.storyboard */,
-				4ACF4B5A2744C3F800827511 /* Info.plist */,
+				4ACF4B7D2744C54400827511 /* App */,
+				4ACF4BAE2744C55E00827511 /* Scene */,
+				4ACF4B7E2744C55C00827511 /* Component */,
+				4ACF4B852744C55C00827511 /* Data */,
+				4ACF4B972744C55C00827511 /* Domain */,
+				4ACF4B7C2744C53B00827511 /* Resource */,
 			);
 			path = NatureSounds;
 			sourceTree = "<group>";
@@ -105,6 +188,199 @@
 				4ACF4B632744C3F800827511 /* NatureSoundsTests.swift */,
 			);
 			path = NatureSoundsTests;
+			sourceTree = "<group>";
+		};
+		4ACF4B7C2744C53B00827511 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				4ACF4B552744C3F800827511 /* Assets.xcassets */,
+				4ACF4B572744C3F800827511 /* LaunchScreen.storyboard */,
+				4ACF4B5A2744C3F800827511 /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		4ACF4B7D2744C54400827511 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4ACF4B4C2744C3F600827511 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4ACF4B7E2744C55C00827511 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				4ACF4B7F2744C55C00827511 /* Bases */,
+				4ACF4B832744C55C00827511 /* Utils */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		4ACF4B7F2744C55C00827511 /* Bases */ = {
+			isa = PBXGroup;
+			children = (
+				4ACF4B802744C55C00827511 /* BaseViewController.swift */,
+				4ACF4B812744C55C00827511 /* ViewControllerInit.swift */,
+				4ACF4B822744C55C00827511 /* BaseRouter.swift */,
+			);
+			path = Bases;
+			sourceTree = "<group>";
+		};
+		4ACF4B832744C55C00827511 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4ACF4B842744C55C00827511 /* Toast.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4ACF4B852744C55C00827511 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4ACF4B862744C55C00827511 /* Network */,
+				4ACF4B932744C55C00827511 /* Keychain */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		4ACF4B862744C55C00827511 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4ACF4B872744C55C00827511 /* APIs */,
+				4ACF4B8D2744C55C00827511 /* Bases */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		4ACF4B872744C55C00827511 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				4ACF4B882744C55C00827511 /* Age */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		4ACF4B882744C55C00827511 /* Age */ = {
+			isa = PBXGroup;
+			children = (
+				4ACF4B892744C55C00827511 /* AgeAPI.swift */,
+				4ACF4B8A2744C55C00827511 /* AgeTarget.swift */,
+				4ACF4B8B2744C55C00827511 /* AgeRequest.swift */,
+				4ACF4B8C2744C55C00827511 /* AgeResponse.swift */,
+			);
+			path = Age;
+			sourceTree = "<group>";
+		};
+		4ACF4B8D2744C55C00827511 /* Bases */ = {
+			isa = PBXGroup;
+			children = (
+				4ACF4B8E2744C55C00827511 /* NWRequestInterceptor.swift */,
+				4ACF4B8F2744C55C00827511 /* TargetType.swift */,
+				4ACF4B902744C55C00827511 /* APIEventLogger.swift */,
+				4ACF4B912744C55C00827511 /* HTTPHeaderField.swift */,
+				4ACF4B922744C55C00827511 /* API.swift */,
+			);
+			path = Bases;
+			sourceTree = "<group>";
+		};
+		4ACF4B932744C55C00827511 /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				4ACF4B942744C55C00827511 /* KeychainAccessible.swift */,
+				4ACF4B952744C55C00827511 /* Crypto.swift */,
+				4ACF4B962744C55C00827511 /* KeychainService.swift */,
+			);
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		4ACF4B972744C55C00827511 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				4ACF4B982744C55C00827511 /* Models */,
+				4ACF4B9A2744C55C00827511 /* UseCases */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		4ACF4B982744C55C00827511 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4ACF4B992744C55C00827511 /* Person.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4ACF4B9A2744C55C00827511 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				4ACF4B9B2744C55C00827511 /* LoginUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		4ACF4BAE2744C55E00827511 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				4ACF4BC22744C6D300827511 /* Home */,
+				4ACF4BC52744C70B00827511 /* Sound */,
+				4ACF4BC82744C73600827511 /* Custom */,
+				4ACF4BC72744C72100827511 /* Clock */,
+				4ACF4BC62744C71C00827511 /* Setting */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		4ACF4BC22744C6D300827511 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4ACF4BC32744C6DC00827511 /* HomeTabBarController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4ACF4BC52744C70B00827511 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				4ACF4C122744CA5500827511 /* SoundRouter.swift */,
+				4ACF4C132744CA5500827511 /* SoundVM.swift */,
+				4ACF4C142744CA5500827511 /* SoundBuilder.swift */,
+				4ACF4C152744CA5500827511 /* SoundVC.swift */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		4ACF4BC62744C71C00827511 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				4ACF4C2D2744DB5A00827511 /* SettingRouter.swift */,
+				4ACF4C2E2744DB5A00827511 /* SettingVM.swift */,
+				4ACF4C2F2744DB5A00827511 /* SettingBuilder.swift */,
+				4ACF4C302744DB5A00827511 /* SettingVC.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		4ACF4BC72744C72100827511 /* Clock */ = {
+			isa = PBXGroup;
+			children = (
+				4ACF4C252744DB5200827511 /* ClockRouter.swift */,
+				4ACF4C262744DB5200827511 /* ClockVM.swift */,
+				4ACF4C272744DB5200827511 /* ClockBuilder.swift */,
+				4ACF4C282744DB5200827511 /* ClockVC.swift */,
+			);
+			path = Clock;
+			sourceTree = "<group>";
+		};
+		4ACF4BC82744C73600827511 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				4ACF4C352744DE0100827511 /* CustomRouter.swift */,
+				4ACF4C362744DE0100827511 /* CustomVM.swift */,
+				4ACF4C372744DE0100827511 /* CustomBuilder.swift */,
+				4ACF4C382744DE0100827511 /* CustomVC.swift */,
+			);
+			path = Custom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +399,15 @@
 			dependencies = (
 			);
 			name = NatureSounds;
+			packageProductDependencies = (
+				4ACF4BB02744C66400827511 /* SnapKit */,
+				4ACF4BB32744C66E00827511 /* Alamofire */,
+				4ACF4BB62744C67600827511 /* KeychainAccess */,
+				4ACF4BB92744C68300827511 /* RxCocoa */,
+				4ACF4BBB2744C68300827511 /* RxRelay */,
+				4ACF4BBD2744C68300827511 /* RxSwift */,
+				4ACF4BC02744C6A500827511 /* Toast */,
+			);
 			productName = NatureSounds;
 			productReference = 4ACF4B492744C3F600827511 /* NatureSounds.app */;
 			productType = "com.apple.product-type.application";
@@ -195,6 +480,13 @@
 				Base,
 			);
 			mainGroup = 4ACF4B402744C3F600827511;
+			packageReferences = (
+				4ACF4BAF2744C66400827511 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				4ACF4BB22744C66E00827511 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				4ACF4BB52744C67600827511 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+				4ACF4BB82744C68300827511 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				4ACF4BBF2744C6A500827511 /* XCRemoteSwiftPackageReference "Toast-Swift" */,
+			);
 			productRefGroup = 4ACF4B4A2744C3F600827511 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -237,8 +529,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ACF4B512744C3F600827511 /* ViewController.swift in Sources */,
+				4ACF4C342744DB5A00827511 /* SettingVC.swift in Sources */,
+				4ACF4C2A2744DB5200827511 /* ClockVM.swift in Sources */,
+				4ACF4C2B2744DB5200827511 /* ClockBuilder.swift in Sources */,
+				4ACF4BA32744C55C00827511 /* AgeResponse.swift in Sources */,
+				4ACF4BA02744C55C00827511 /* AgeAPI.swift in Sources */,
+				4ACF4BAB2744C55C00827511 /* KeychainService.swift in Sources */,
+				4ACF4C1A2744CA5500827511 /* SoundVC.swift in Sources */,
+				4ACF4BA22744C55C00827511 /* AgeRequest.swift in Sources */,
+				4ACF4C172744CA5500827511 /* SoundRouter.swift in Sources */,
+				4ACF4BC42744C6DC00827511 /* HomeTabBarController.swift in Sources */,
+				4ACF4BA62744C55C00827511 /* APIEventLogger.swift in Sources */,
+				4ACF4BA92744C55C00827511 /* KeychainAccessible.swift in Sources */,
+				4ACF4BAC2744C55C00827511 /* Person.swift in Sources */,
+				4ACF4C322744DB5A00827511 /* SettingVM.swift in Sources */,
+				4ACF4C2C2744DB5200827511 /* ClockVC.swift in Sources */,
+				4ACF4C3B2744DE0100827511 /* CustomBuilder.swift in Sources */,
 				4ACF4B4D2744C3F600827511 /* AppDelegate.swift in Sources */,
+				4ACF4B9D2744C55C00827511 /* ViewControllerInit.swift in Sources */,
+				4ACF4BA82744C55C00827511 /* API.swift in Sources */,
+				4ACF4BAD2744C55C00827511 /* LoginUseCase.swift in Sources */,
+				4ACF4BAA2744C55C00827511 /* Crypto.swift in Sources */,
+				4ACF4C3C2744DE0100827511 /* CustomVC.swift in Sources */,
+				4ACF4B9F2744C55C00827511 /* Toast.swift in Sources */,
+				4ACF4C312744DB5A00827511 /* SettingRouter.swift in Sources */,
+				4ACF4C182744CA5500827511 /* SoundVM.swift in Sources */,
+				4ACF4C292744DB5200827511 /* ClockRouter.swift in Sources */,
+				4ACF4C392744DE0100827511 /* CustomRouter.swift in Sources */,
+				4ACF4C332744DB5A00827511 /* SettingBuilder.swift in Sources */,
+				4ACF4BA42744C55C00827511 /* NWRequestInterceptor.swift in Sources */,
+				4ACF4B9C2744C55C00827511 /* BaseViewController.swift in Sources */,
+				4ACF4BA72744C55C00827511 /* HTTPHeaderField.swift in Sources */,
+				4ACF4B9E2744C55C00827511 /* BaseRouter.swift in Sources */,
+				4ACF4C192744CA5500827511 /* SoundBuilder.swift in Sources */,
+				4ACF4BA52744C55C00827511 /* TargetType.swift in Sources */,
+				4ACF4BA12744C55C00827511 /* AgeTarget.swift in Sources */,
+				4ACF4C3A2744DE0100827511 /* CustomVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,7 +661,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -390,7 +716,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -409,7 +735,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SS7U83UJNK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NatureSounds/Info.plist;
+				INFOPLIST_FILE = NatureSounds/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -436,7 +762,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SS7U83UJNK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NatureSounds/Info.plist;
+				INFOPLIST_FILE = NatureSounds/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -590,6 +916,87 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4ACF4BAF2744C66400827511 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		4ACF4BB22744C66E00827511 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		4ACF4BB52744C67600827511 /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		4ACF4BB82744C68300827511 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		4ACF4BBF2744C6A500827511 /* XCRemoteSwiftPackageReference "Toast-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scalessec/Toast-Swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4ACF4BB02744C66400827511 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4ACF4BAF2744C66400827511 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		4ACF4BB32744C66E00827511 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4ACF4BB22744C66E00827511 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		4ACF4BB62744C67600827511 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4ACF4BB52744C67600827511 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+		4ACF4BB92744C68300827511 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4ACF4BB82744C68300827511 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		4ACF4BBB2744C68300827511 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4ACF4BB82744C68300827511 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		4ACF4BBD2744C68300827511 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4ACF4BB82744C68300827511 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		4ACF4BC02744C6A500827511 /* Toast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4ACF4BBF2744C6A500827511 /* XCRemoteSwiftPackageReference "Toast-Swift" */;
+			productName = Toast;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4ACF4B412744C3F600827511 /* Project object */;
 }
